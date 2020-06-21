@@ -1,7 +1,7 @@
 # JUnit-5
  A basic calculator class with JUnit 5 tests
 
- Eclipse project folder: junit-5-basic
+ Eclipse project folder location: JUnit5/junit-5-basic
  
  Concepts includes:
  
