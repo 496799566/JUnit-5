@@ -1,0 +1,20 @@
+package jack.math.util;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathUtilityTest {
+
+	@Test
+	void testAdd() {
+		MathUtility_Add_Test();
+	}
+
+	private static void MathUtility_Add_Test() {
+		MathUtility math = new MathUtility();
+		
+		int expect = 2;
+		int actual = math.add(1, 1);
+	}
+}

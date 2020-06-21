@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyMathTest" project="junit-5-basic" tests="4" started="4" failures="0" errors="0" ignored="0" include_tags="Math">
+  <testsuite name="jack.math.util.MathUtilityTest" time="0.052" displayname="MathUtilityTest" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]">
+    <testcase name="testDivide" classname="jack.math.util.MathUtilityTest" time="0.031" displayname="testDivide()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[method:testDivide()]"/>
+    <testcase name="testComputeCircleRadius" classname="jack.math.util.MathUtilityTest" time="0.01" displayname="testComputeCircleRadius()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[method:testComputeCircleRadius()]"/>
+    <testsuite name="jack.math.util.MathUtilityTest$addTest" time="0.011" displayname="addTest" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[nested-class:addTest]">
+      <testcase name="testAddPositive" classname="jack.math.util.MathUtilityTest.addTest" time="0.005" displayname="testAddPositive()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[nested-class:addTest]/[method:testAddPositive()]"/>
+      <testcase name="testAddNegative" classname="jack.math.util.MathUtilityTest.addTest" time="0.006" displayname="testAddNegative()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[nested-class:addTest]/[method:testAddNegative()]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

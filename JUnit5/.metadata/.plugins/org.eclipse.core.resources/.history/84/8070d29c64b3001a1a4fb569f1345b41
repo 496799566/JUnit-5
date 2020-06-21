@@ -1,0 +1,18 @@
+package jack.math.util;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathUtilityTest {
+
+	@Test
+	void testAdd() {
+		System.out.println("Test running");
+	}
+
+	private static void MathUtility_Add_Test() {
+		MathUtility math = new MathUtility();
+		System.out.println(math.add(1, 2));
+	}
+}

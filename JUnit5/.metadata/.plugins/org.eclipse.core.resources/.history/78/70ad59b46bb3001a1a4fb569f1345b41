@@ -1,0 +1,11 @@
+package jack.math.util;
+
+public class MathUtility {
+
+	public int add(int a, int b) {
+		return a + b ;
+	}
+	public int computeCircleArea(double radius) {
+		return radius ;
+	}
+}

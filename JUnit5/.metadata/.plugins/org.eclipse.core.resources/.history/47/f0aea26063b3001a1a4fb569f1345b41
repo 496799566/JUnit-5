@@ -1,0 +1,5 @@
+package jack.math.util;
+
+public class MathUtility {
+
+}

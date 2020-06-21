@@ -1,0 +1,45 @@
+package jack.math.util;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class MathUtilityTest {
+	
+	private MathUtility math;
+
+	@BeforeEach
+	void init() {
+		math = new MathUtility();
+	}
+	
+	@Test
+	void testAdd() {
+		int expected 	= 2;
+		int actual 		= math.add(1, 1);
+		String description = "An add method that add two integers, from " + MathUtility.class.getName().toString();
+		assertEquals(expected, actual, description);
+	}
+	
+	@Test
+	void testDivide() {
+		assertThrows(ArithmeticException.class, () -> math.divide(1, 0), "divided by zero should throw ArithmeticExcpetion, divide by zero");
+	}
+
+	@Test
+	void testComputeCircleRadius() {
+		double radius = 10;
+		double expected = Math.pow(radius, 2) * Math.PI;
+		double actual 	= math.computeCircleArea(radius);
+		String description = "An circle area computation method, from " + MathUtility.class.getName().toString();
+		assertEquals(expected, actual, "");
+	}
+	
+	@Test
+	@DisplayName("This test always fails for now")
+	void testFails() {
+		Fail("I always fail you");
+	}
+	
+}

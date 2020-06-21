@@ -1,0 +1,16 @@
+package jack;
+
+import jack.math.util.MathUtility;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		MathUtility math = new MathUtility();
+		System.out.println(math.add(1, 2));
+		
+	}
+	
+	
+
+}

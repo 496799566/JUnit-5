@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MathUtilityTest" project="junit-5-basic" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="jack.math.util.MathUtilityTest" time="0.05" displayname="MathUtilityTest" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]">
+    <testcase name="testAdd" classname="jack.math.util.MathUtilityTest" time="0.035" displayname="testAdd()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[method:testAdd()]"/>
+    <testcase name="testComputeCircleRadius" classname="jack.math.util.MathUtilityTest" time="0.015" displayname="testComputeCircleRadius()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[method:testComputeCircleRadius()]"/>
+  </testsuite>
+</testrun>

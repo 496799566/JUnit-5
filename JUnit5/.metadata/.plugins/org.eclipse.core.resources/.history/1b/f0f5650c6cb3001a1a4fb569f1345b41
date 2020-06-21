@@ -1,0 +1,28 @@
+package jack.math.util;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathUtilityTest {
+	
+	private static MathUtility math = new MathUtility();
+
+	@Test
+	void testAdd() {
+		int expect = 1;
+		int actual = math.add(1, 1);
+		String description = "An add method that add two integers, from " + MathUtility.class.getName().toString();
+		assertEquals(expect, actual, description);
+	}
+
+	@Test
+	void testComputeCircleRadius() {
+		
+		double radius = 10;
+		
+		double expected = radius * Math.PI;
+		double expected = math.computeCircleArea(10)
+	}
+	
+}

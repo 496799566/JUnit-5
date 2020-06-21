@@ -1,0 +1,14 @@
+package jack.math.util;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathUtilityTest {
+
+	@Test
+	void testAdd() {
+		fail("Not yet implemented");
+	}
+
+}

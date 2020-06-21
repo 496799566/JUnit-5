@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="addTest" project="junit-5-basic" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="jack.math.util.MathUtilityTest" time="0.059" displayname="MathUtilityTest" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]">
+    <testsuite name="jack.math.util.MathUtilityTest$addTest" time="0.059" displayname="addTest" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[nested-class:addTest]">
+      <testcase name="testAddPositive" classname="jack.math.util.MathUtilityTest.addTest" time="0.044" displayname="testAddPositive()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[nested-class:addTest]/[method:testAddPositive()]"/>
+      <testcase name="testAddNegative" classname="jack.math.util.MathUtilityTest.addTest" time="0.015" displayname="testAddNegative()" uniqueid="[engine:junit-jupiter]/[class:jack.math.util.MathUtilityTest]/[nested-class:addTest]/[method:testAddNegative()]"/>
+    </testsuite>
+  </testsuite>
+</testrun>
